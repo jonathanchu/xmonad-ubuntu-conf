@@ -84,6 +84,7 @@ myUrgentWSRight = "}"
   as well.
 -}
 
+{-
 myWorkspaces =
   [
     "7:Chat",  "8:Dbg", "9:Pix",
@@ -91,8 +92,17 @@ myWorkspaces =
     "1:Term",  "2:Hub", "3:Mail",
     "0:VM",    "Extr1", "Extr2"
   ]
+-}
 
-startupWorkspace = "5:Dev"  -- which workspace do you want to be on after launch?
+myWorkspaces =
+  [
+    "7:Chat",  "8:Dbg",   "9:Pix",
+    "4:Docs",  "5:Dev",   "6:Web",
+    "1:code",  "2:shell", "3:browser",
+    "0:VM",    "Extr1",   "Extr2"
+  ]
+
+startupWorkspace = "1:code"  -- which workspace do you want to be on after launch?
 
 {-
   Layout configuration. In this section we identify which xmonad
